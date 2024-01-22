@@ -416,7 +416,7 @@ input.form-check-input.nsa {
   overflow-y: AUTO;
 }
 .sidebar .nav-pills {
-  width: 39%;
+  width: 51%;
   background-color:white;
   padding: 2rem 1rem;
   color: black;
@@ -425,6 +425,14 @@ input.form-check-input.nsa {
 .sidebar.open ~ .index_cards, .sidebar.opened ~ .index_cards {
   width: 100%;
   margin-inline-start: unset;
+}
+.append_answer .form-check-input {
+  
+  left: 14rem;
+
+}
+.menu {
+  margin-right: 10px;
 }
   
 }
