@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ? Main CSS -->
+    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <!-- ? Custom CSS -->
+    <link rel="stylesheet" href="css/dataTables.bootstrap5.min.css" />
+    <link rel="stylesheet" href="css/nasra.css" />
+    <!-- ? Custom CSS -->
+    <!-- ? Main JavaScript -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/fontawesome.min.js"></script>
+    <!-- ? Main JavaScript -->
+    <!-- ? Custom JavaScript -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="js/dataTables.bootstrap5.min.js"></script>
+    <!-- ? Custom JavaScript -->
+
+    <title>index</title>
+  </head>
+  <body data-spy="scroll" data-target=".navbar">
+    <div class="d-flex sidemobile p-0">
+      <!-- ======= Start Sidebar ======= -->
+      <section class="sidebar open">
+        <ul
+          class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
+          id="menu"
+        >
+          <li class="nav-item">
+            <img src="mida/شفيعا1.png" alt="" />
+          </li>
+          <li class="nav-item">
+            <a href="index.html" class="nav-link align-middle">
+              <i class="fa-solid fa-book"></i>
+              
+              <span>الماده</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="unit.html" class="nav-link align-middle">
+              <i class="fa-solid fa-bars-progress"></i>
+                            <span>الوحدات</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="ask_bank.html" class="nav-link align-middle">
+              <i class="fa-brands fa-leanpub"></i>
+              <span>بنك الاسئله العام</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="exsams.html" class="nav-link align-middle">
+              <i class="fa-solid fa-rectangle-list"></i>
+              <span>الأمتحانات</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <!-- ======= end Sidebar ======= -->
+
+      <!-- ======= Main ======= -->
+      <section class="index_cards">
+        <!-- ======= Start navbar ======= -->
+        <nav class="navbar lets">
+          <div class="menuu">
+            <div class="menu">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+
+          <div class="beell">
+            <div class="dropdown d-inline-block">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fa-regular fa-bell"></i>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li>
+                  <a class="dropdown-item" href="#">1</a>
+                  <a class="dropdown-item" href="#">2</a>
+                  <a class="dropdown-item" href="#">3</a>
+                </li>
+              </ul>
+            </div>
+            <div class="dropdown d-inline-block">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <div class="img-text">
+                  <img src="mida/user.png" class="admin_img" alt="person" />
+                  <h4></h4>
+                </div>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li>
+                  <a class="dropdown-item" href="seting-acount.html"
+                    >اعدادات الحساب
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="General-Settings.html"
+                    >Setting</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="#">Logout</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- end nav -->
+        <div class="container">
+          <div class="subjects">
+            <div class="headers">
+              <h4>بنك الاسئله العام</h4>
+                </a>
+                <a href="add-asks.html">
+                  <button type="button" class="btn btn-success">
+                    اضافة سؤال +
+                  </button>
+                </a>
+            </div>
+            <div class="content">
+              <div class="table-responsive">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">نوع التعليم</th>
+                      <th scope="col">المرحله</th>
+                      <th scope="col">السنه</th>
+                      <th scope="col">الماده</th>
+                      <th scope="col">الوحده</th>
+                      <th scope="col">الدرس</th>
+                      <th scope="col">السؤال</th>
+                      <th scope="col">actions</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td scope="row">اساسي</td>
+                      <td> الأولي</td>
+                      <td>الثالثه</td>
+                      <td>قران كريم</td>
+                      <td>التانيه</td>
+                      <td>الاول</td>
+                      <td>اكمل العباره الاتيه......</td>
+                      <td>
+                        <a href="#"> <i class="fa-solid fa-eye"></i></a>
+                        <a href="#"> <i class="fa-solid fa-pen"></i></a>
+                        <a href="#"><i class="fa-solid fa-trash-can"></i></a>
+                      </td>
+                    </tr>
+                    <tr>
+                        <td scope="row">اساسي</td>
+                        <td> الأولي</td>
+                        <td>الثالثه</td>
+                        <td>قران كريم</td>
+                        <td>التانيه</td>
+                        <td>الاول</td>
+                        <td>اكمل العباره الاتيه......</td>
+                        <td>
+                          <a href="#"> <i class="fa-solid fa-eye"></i></a>
+                          <a href="#"> <i class="fa-solid fa-pen"></i></a>
+                          <a href="#"><i class="fa-solid fa-trash-can"></i></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td scope="row">اساسي</td>
+                        <td> الأولي</td>
+                        <td>الثالثه</td>
+                        <td>قران كريم</td>
+                        <td>التانيه</td>
+                        <td>الاول</td>
+                        <td>اكمل العباره الاتيه......</td>
+                        <td>
+                          <a href="#"> <i class="fa-solid fa-eye"></i></a>
+                          <a href="#"> <i class="fa-solid fa-pen"></i></a>
+                          <a href="#"><i class="fa-solid fa-trash-can"></i></a>
+                        </td>
+                      </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= Chart onload =========== -->
+      <script src="js/main.js"></script>
+      <script src="js/counterup.min.js"></script>
+      <script src="js/waypoints.min.js"></script>
+    </div>
+  </body>
+</html>
